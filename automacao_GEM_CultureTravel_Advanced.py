@@ -22,8 +22,7 @@ CAMINHO_PERFIL_ROBO = os.path.join(os.getcwd(), "chromebook_profile")
 URL_ALVO = "https://gemini.google.com/app"
 
 # --- SEUS TEXTOS (INSIRA AQUI O CONTEÚDO SEPARADO POR ###) ---
-lista_conteudos = 
-"""
+lista_conteudos = """
 1. Travel & Culture;Advanced;01;Living Abroad: The Expat Life;Diferenciar turista de morador.
 ###
 1. Travel & Culture;Advanced;02;Culture Shock Stages;Honeymoon, Frustration, Adjustment.
@@ -245,4 +244,5 @@ def run_automation():
     print("\n✅ Automação Finalizada!")
 
 if __name__ == "__main__":
+
     run_automation()
