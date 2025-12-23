@@ -23,78 +23,6 @@ URL_ALVO = "https://gemini.google.com/app"
 
 # --- SEUS TEXTOS (INSIRA AQUI O CONTEÚDO SEPARADO POR ###) ---
 lista_conteudos = """
-1. Travel & Culture;Advanced;01;Living Abroad: The Expat Life;Diferenciar turista de morador.
-###
-1. Travel & Culture;Advanced;02;Culture Shock Stages;Honeymoon, Frustration, Adjustment.
-###
-1. Travel & Culture;Advanced;03;Reverse Culture Shock;Voltar para casa.
-###
-1. Travel & Culture;Advanced;04;Bureaucracy Abroad;Vistos, impostos, aluguel.
-###
-1. Travel & Culture;Advanced;05;Healthcare Systems;Comparar SUS com outros.
-###
-1. Travel & Culture;Advanced;06;Education Systems;Escolas internacionais.
-###
-1. Travel & Culture;Advanced;07;Work Culture Global;Diferenças de escritório.
-###
-1. Travel & Culture;Advanced;08;Making Local Friends (Deep);Sair da bolha de expats.
-###
-1. Travel & Culture;Advanced;09;Bilingualism;Desafios de criar filhos bilingues.
-###
-1. Travel & Culture;Advanced;10;Identity and Belonging;Onde é "casa"?
-###
-1. Travel & Culture;Advanced;11;Travel Idioms: "Hit the road";Pegar a estrada.
-###
-1. Travel & Culture;Advanced;12;Travel Idioms: "Off the beaten track";Lugar pouco visitado.
-###
-1. Travel & Culture;Advanced;13;Travel Idioms: "Travel light";Viajar com pouco peso.
-###
-1. Travel & Culture;Advanced;14;Travel Idioms: "Itchy feet";Vontade de viajar.
-###
-1. Travel & Culture;Advanced;15;Travel Idioms: "Culture vulture";Amante de cultura.
-###
-1. Travel & Culture;Advanced;16;Slang: "Tourist trap";Lugar pega-turista.
-###
-1. Travel & Culture;Advanced;17;Slang: "Red-eye flight";Voo noturno.
-###
-1. Travel & Culture;Advanced;18;Slang: "Jet lag";Cansaço de fuso.
-###
-1. Travel & Culture;Advanced;19;Slang: "Staycation";Férias em casa.
-###
-1. Travel & Culture;Advanced;20;Review: Expat Advice;Áudio consolidado: Dar conselhos para quem vai morar fora.
-###
-1. Travel & Culture;Advanced;21;Rhetoric: Describing a Place;Criar uma imagem mental vívida.
-###
-1. Travel & Culture;Advanced;22;Sensory Details;Cheiros, sons, texturas.
-###
-1. Travel & Culture;Advanced;23;The Art of Conversation;Manter papo com estranhos.
-###
-1. Travel & Culture;Advanced;24;Diplomacy in Travel;Evitar conflito internacional.
-###
-1. Travel & Culture;Advanced;25;Nuance: "Trip" vs "Journey";Diferenças sutis.
-###
-1. Travel & Culture;Advanced;26;Nuance: "Custom" vs "Tradition";Antiguidade e hábito.
-###
-1. Travel & Culture;Advanced;27;Humor: Self-Deprecation;Rir dos próprios erros culturais.
-###
-1. Travel & Culture;Advanced;28;Storytelling: Pacing;Controlar a velocidade da história.
-###
-1. Travel & Culture;Advanced;29;Storytelling: Dialogue;Imitar vozes na história.
-###
-1. Travel & Culture;Advanced;30;Public Speaking: Toast;Fazer um brinde em casamento gringo.
-###
-1. Travel & Culture;Advanced;31;Global Issues: Migration;Discutir crise de refugiados.
-###
-1. Travel & Culture;Advanced;32;Global Issues: Climate;Impacto em ilhas e neve.
-###
-1. Travel & Culture;Advanced;33;Global Issues: Economy;Turismo como fonte de renda.
-###
-1. Travel & Culture;Advanced;34;Heritage Sites Protection;UNESCO e preservação.
-###
-1. Travel & Culture;Advanced;35;Indigenous Tourism;Ética e respeito.
-###
-1. Travel & Culture;Advanced;36;Dark Tourism;Visitar locais de tragédia (Chernobyl).
-###
 1. Travel & Culture;Advanced;37;Space Tourism;Futuro das viagens.
 ###
 1. Travel & Culture;Advanced;38;Virtual Reality Travel;Substituto ou complemento?
@@ -108,7 +36,6 @@ lista_conteudos = """
 1. Travel & Culture;Advanced;42;Proficiency: Dialects;Reconhecer Cockney, Southern US.
 ###
 1. Travel & Culture;Advanced;43;Proficiency: Speed;Entender fala rápida.
-###
 ###
 1. Travel & Culture;Advanced;44;Proficiency: Mumbling;Entender fala pouco clara.
 ###
@@ -246,3 +173,4 @@ def run_automation():
 if __name__ == "__main__":
 
     run_automation()
+
