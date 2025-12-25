@@ -23,46 +23,6 @@ URL_ALVO = "https://gemini.google.com/app"
 
 # --- SEUS TEXTOS (INSIRA AQUI O CONTEÚDO SEPARADO POR ###) ---
 lista_conteudos = """
-8. Social English;Advanced;01;Defining Happiness;Debater o conceito de felicidade.
-###
-8. Social English;Advanced;02;The Concept of Freedom;Liberdade de vs Liberdade para.
-###
-8. Social English;Advanced;03;Fate vs Free Will;Destino ou livre arbítrio?
-###
-8. Social English;Advanced;04;Moral Relativism;Existe certo/errado absoluto?
-###
-8. Social English;Advanced;05;The Trolley Problem;Dilema ético clássico.
-###
-8. Social English;Advanced;06;Altruism vs Egoism;O altruísmo verdadeiro existe?
-###
-8. Social English;Advanced;07;The Meaning of Success;Redefinir sucesso.
-###
-8. Social English;Advanced;08;Materialism & Minimalism;Relação com posses.
-###
-8. Social English;Advanced;09;Work-Life Balance Myth;Equilíbrio ou utopia?
-###
-8. Social English;Advanced;10;The Nature of Time;Percepção da passagem do tempo.
-###
-8. Social English;Advanced;11;Nostalgia: Good or Bad?;Viver no passado vs presente.
-###
-8. Social English;Advanced;12;Regret & Redemption;Falar sobre erros e mudança.
-###
-8. Social English;Advanced;13;Fear of Missing Out (FOMO);Ansiedade moderna.
-###
-8. Social English;Advanced;14;Joy of Missing Out (JOMO);Prazer de se desconectar.
-###
-8. Social English;Advanced;15;Solitude vs Loneliness;Estar sozinho vs sentir-se só.
-###
-8. Social English;Advanced;16;The Role of Art in Society;Função social da arte.
-###
-8. Social English;Advanced;17;Subjectivity of Beauty;A beleza está nos olhos de quem vê?
-###
-8. Social English;Advanced;18;Censorship & Free Speech;Limites da liberdade de expressão.
-###
-8. Social English;Advanced;19;Privacy vs Security;O debate sobre vigilância.
-###
-8. Social English;Advanced;20;Review: My Philosophy;Áudio consolidado: Explicar seu lema de vida.
-###
 8. Social English;Advanced;21;Nature vs Nurture;Genética ou criação?
 ###
 8. Social English;Advanced;22;Emotional Intelligence (EQ);Importância de gerir emoções.
@@ -230,10 +190,10 @@ def run_automation():
             # botao_enviar = driver.find_element(By.CSS_SELECTOR, "button[aria-label*='Envi']")
             # botao_enviar.click()
 
-            # 6. Esperar 30 segundos para a resposta
+            # 6. Esperar 60 segundos para a resposta
             if i < len(projetos) - 1: # Só espera se não for o último
-                print("   ⏳ Aguardando 30 segundos para a resposta do Gemini...")
-                time.sleep(30)
+                print("   ⏳ Aguardando 60 segundos para a resposta do Gemini...")
+                time.sleep(60)
             else:
                 print("   🏁 Último prompt enviado.")
 
@@ -244,4 +204,5 @@ def run_automation():
     print("\n✅ Automação Finalizada!")
 
 if __name__ == "__main__":
+
     run_automation()
